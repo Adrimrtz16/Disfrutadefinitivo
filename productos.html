@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disfruta - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="scripts/pedido.js" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row rosa">
+            <nav class="col-12 navbar navbar-expand-md">
+                <div class="container d-flex flex-row flex-md-column justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="imagenes/logos/logo.png" alt="Logo" class="logo">
+                    </a>
+                    <h1 class="d-md-none">Disfruta</h1>
+                    <h1 class="d-none d-md-block">Disfruta - Postres naturales</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="productos.html">Productos</a>
+                            <a class="nav-link" href="reseñas.html">Reseñas</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 subtitulo">
+                <h2>Nuestros productos</h2>
+            </div>
+        </div>
+        <div class="row">   <!-- Productos -->
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto1.webp" class="rounded-circle" alt="Macarons de diferentes sabores">
+                <h4>Macarons</h4>
+                <p>Macarons de diferentes sabores: fresa, frambuesa, mora, pistacho y arandanos</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto2.webp" class="rounded-circle" alt="Muffins de café">
+                <h4>Muffins de café</h4>
+                <p>Muffins con sabor a café adornados con crema pastelera usando colorantes naturales</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto3.webp" class="rounded-circle" alt="Batidos de frutas">
+                <h4>Batidos de frutas</h4>
+                <p>Batidos con leches naturales o vegetales de sabores como platano, fresa, cacao y pistacho</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 subtitulo">
+                <h2>Pedidos</h2>
+            </div>
+        </div>
+        <div class="row"> <!-- Formulario de pedidos -->
+            <div class="col-12">
+                <form id="pedidoForm" class="formulario estilo-form">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Pedido</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="centrado">
+                        <button type="submit" class="boton">ENVIAR</button>
+                    </div>
+                </form>
+                <br>
+            </div>
+        </div>
+        <div class="row"> <!-- Footer -->
+            <div class="footer rosa">
+                <div class="row margen margen-footer">
+                    <div class="col-12 col-sm-6 ">
+                        <p class="contacto contacto-margen"> C/Calle</p>
+                        <p class="contacto">Ubicación: Cartagena (Murcia)</p>
+                        <p class="contacto">Teléfono: 968 123 456</p>
+                        <p class="contacto">Email: contacto@contacto.com</p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.8457745839924!2d-0.9927660233647977!3d37.6057885720286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd634224e0bc8c2b%3A0xf62d78a986855460!2sCIFP%20Carlos%20III!5e0!3m2!1ses!2ses!4v1738443946466!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/"> 
+                            <img src="imagenes/logos/instagram.svg" alt="Instagram" class="redes">
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href="https://x.com/">
+                            <img src="imagenes/logos/x.svg" alt="X" class="redes">
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href="https://www.facebook.com/">
+                            <img src="imagenes/logos/facebook.svg" alt="Facebook" class="redes">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 margen">
+                        <p class="texto-pequeño">© 2025 Dark web. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
