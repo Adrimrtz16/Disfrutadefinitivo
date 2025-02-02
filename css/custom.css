@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: rgb(255, 240, 240);
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.rosa {
+    background-color: #f19998;
+}
+
+.redes {
+    width: 60px;
+}
+
+.sin {
+    padding: 0px;
+}
+
+.letras-carrusel {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 60px;
+}
+.productos { 
+    margin: 0 auto;
+}
+
+.productos img {
+    width: 80%;
+    border: #000 1px solid;
+    margin: 20px 10%;
+}
+
+.productos img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.productos h4, .productos p {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.parrafo {
+    text-align: center;
+    margin: 10px;
+}
+
+.margen {
+    margin: 20px 0;
+}
+
+.texto-pequeño {
+    text-align: center;
+    font-size: 12px;
+}
+
+.formulario {
+    margin: 0 5%;
+}
+
+.logo {
+    width: 60px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+/*Nuestro Equipo*/
+
+.equipo{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.equipo-hover img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.textoequipo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo-equipo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.descripcion-equipo{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: paleturquoise;
+    border-radius: 30px;
+}
+
+.equipo-padding{        /*Separa el footer del body*/
+    padding-bottom: 50px;
+}
+
+/*Contacto*/
+
+.boton {
+    background-color: #f19998;  /* Rosa pastel */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.5s ;
+}
+
+.boton:hover {
+    background-color: #d57b91;  /* Rosa un poco más intenso en hover */
+}
+
+.contacto-form{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contacto-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.contacto-form input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+.padding-form{
+    padding-bottom: 25px;
+    padding-right: 42%;
+
+}
+.estilo-form{
+    background-color: paleturquoise;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.padding-contacto{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.margen-equipo{
+    margin: 0 0%;
+}
+
+.mapa {
+    width: 100%;
+}
+
+/*Reseñas*/
+
+.contenedor{
+    display: flex;
+}
+
+.formularioReseñas{
+    width: 150%;
+    float: left;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.grupo-formulario {
+    display: flex;
+    gap: 10px;
+}
+
+.grupo-formulario input {
+    flex: 1;
+}
+
+.satisfaccion p {
+    margin-bottom: 10px; 
+}
+
+
+
+.negrita{
+    font-weight: bold;
+}
+.historial-reseñas {
+    width: 80%;
+    background-color: paleturquoise;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 10%;
+    margin-right:10%;
+
+}
+
+.historial-reseñas h3 {
+
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: #d57b91;
+    padding-bottom: 2%;
+}
+
+.reseña {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    margin-top: 0% ;
+}
+.reseña img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 15px; 
+  }
+
+.reseña:last-child {
+    border-bottom: none;
+}
+
+.reseña p {
+    margin: 5px 0;
+}
+
+.reseña strong {
+    color: #d57b91; /* Resaltar los nombres */
+}
+
+
+.muy-bien{
+    color: green;
+}
+.bien{
+    color: rgb(95, 183, 95);
+}
+.normal{
+    color: rgb(186, 186, 3);
+}
+.mal{
+    color: orange;
+}
+.muy-mal{
+    color: red;
+}
+
+.espacio-top{
+    padding-top: 30px;
+}
+
+.espacio-bottom{
+    padding-bottom: 5%;
+}
+
+.margen-abajo{
+    margin-bottom: 20px;
+}
+/* Media queries para diferentes resoluciones */
+@media screen and (min-width:576px) { 
+    /* Estilos para pantallas sm */
+
+    .formulario {
+        margin: 0 15%;
+    }
+    
+    .equipo {
+        width: 60%;
+        margin: 10% 20% 10% 20%;
+    }
+    
+    .mapa {
+        height: 200px;
+    }
+
+    .margen-form {
+        margin-bottom: 20px;
+    }
+    .historial-reseñas{
+        width: 80%;
+
+    }
+
+    .padding-form{
+        padding-right: 0%;
+    
+    }
+    .formularioReseñas{
+        width: 175%;
+        float: left;
+        text-align: left;
+        padding-left: 7%;
+        padding-right: 0%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width:768px) { 
+    /* Estilos para pantallas md */
+
+    .formulario {
+        margin: 0 30%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    body{
+        font-size: 20px;
+    }
+
+    .texto-pequeño{
+        font-size: 16px;
+    }
+
+    .equipo {
+        width: 80%;
+        margin: 10%;
+    }
+    
+    .margen-index{
+        margin: 2% 25%;
+    }
+
+    .margen-equipo{
+        margin: 0 15%;
+    }
+
+    .mapa {
+        width: 100%;
+
+    }
+    .margen-form {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .margen-footer{
+        margin: 2% 12%;
+    }
+}
+
